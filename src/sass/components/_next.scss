@@ -1,0 +1,11 @@
+@use "../utils/variables" as var;
+
+.next {
+  color: var.$primary-color;
+  font-size: calc(0.875em + 0.9px);
+  font-weight: 500;
+  line-height: 5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

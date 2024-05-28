@@ -1,0 +1,81 @@
+.contact {
+  &__wrapper {
+    max-width: 980px;
+    margin: auto;
+  }
+  &__text {
+    font-size: calc(0.9px + 0.875em);
+    margin: 1rem 0px;
+    line-height: 2;
+    font-weight: 400;
+    color: #c6c6c6;
+  }
+  &__gmail {
+    color: #e1e1e1;
+    font-weight: 700;
+    font-size: calc(1.2px + 0.875em);
+    transition: all 100ms;
+    &:hover {
+      text-decoration: underline;
+      color: rgba(86, 86, 247, 0.797);
+    }
+  }
+  &__context {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  &__input {
+    background: transparent;
+    margin-bottom: 2rem;
+    resize: none;
+    color: #e1e1e1 !important;
+    box-shadow: none !important;
+    padding: 24px 21px !important;
+    border: 1px solid #14202b;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    opacity: 0.8;
+    &:focus {
+      opacity: 1;
+    }
+  }
+  &__message {
+    width: 100%;
+    height: 170px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #14202b;
+    color: #e1e1e1 !important;
+    box-shadow: none !important;
+    padding: 24px 21px !important;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    &:focus {
+      opacity: 1;
+      background-color: #000;
+    }
+  }
+  &__btn {
+    font-size: calc(0.875em + 1.1px);
+    font-weight: 500;
+    line-height: 1.5;
+    background: #e1e1e1;
+    border: none;
+    color: #020a13;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-bottom: 3rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
