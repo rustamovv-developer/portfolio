@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import ProjectsWrapper from "../../components/projects-wrapper";
+import "../../sass/pages/projects.scss";
 
 const Projects = () => {
   return (

@@ -69,7 +69,7 @@ const AboutWrapper = () => {
         <li className="about__item">
           <div className="about__context">
             <Link target="_blank" className="about__direction" to="">
-              14-IDUM <b className="about__min">School</b>
+              14-IDUM.<small className="about__min">School</small>
             </Link>
             <Link target="_blank" to="" className="about__link">
               <FaCalendarDays style={{ color: "#c6c6c6", fontSize: "13px" }} />
@@ -85,7 +85,7 @@ const AboutWrapper = () => {
         <li className="about__item">
           <div className="about__context">
             <Link target="_blank" className="about__direction" to="/projects">
-              Najot ta'lim <b className="about__min">Training Center</b>
+              Najot ta'lim.<small className="about__min">Training Center</small>
             </Link>
             <Link target="_blank" to="/projects" className="about__link">
               <FaCalendarDays style={{ color: "#c6c6c6", fontSize: "13px" }} />
@@ -110,7 +110,7 @@ const AboutWrapper = () => {
               className="about__direction"
               to="https://open.spotify.com/collection/tracks"
             >
-              Ru$tamovv.<b className="about__min">Spotify</b>
+              Ru$tamovv.<small className="about__min">Spotify</small>
             </Link>
             <Link
               target="_blank"
@@ -132,7 +132,7 @@ const AboutWrapper = () => {
               className="about__direction"
               to="https://open.spotify.com/playlist/2vms6pc0vy8bmKD0Ei2mO8"
             >
-              Russian musics.<b className="about__min">Spotify</b>
+              Russian musics.<small className="about__min">Spotify</small>
             </Link>
             <Link
               target="_blank"
@@ -154,7 +154,7 @@ const AboutWrapper = () => {
               className="about__direction"
               to="https://open.spotify.com/playlist/3dKFHksBdzvGwIUegzVGAX"
             >
-              English musics.<b className="about__min">Spotify</b>
+              English musics.<small className="about__min">Spotify</small>
             </Link>
             <Link
               target="_blank"
@@ -176,7 +176,7 @@ const AboutWrapper = () => {
               className="about__direction"
               to="https://open.spotify.com/playlist/3dKFHksBdzvGwIUegzVGAX"
             >
-              UzRap.<b className="about__min">Spotify</b>
+              UzRap.<small className="about__min">Spotify</small>
             </Link>
             <Link
               target="_blank"
